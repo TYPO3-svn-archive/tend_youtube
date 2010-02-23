@@ -10,7 +10,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi2/class.tx_tendyoutube_pi2.php', '_pi2', 
 // EID
 $TYPO3_CONF_VARS['FE']['eID_include'][$_EXTKEY] = sprintf('EXT:%s/%s',$_EXTKEY,"class.tx_tendyoutube_eid.php");
 
-// Hooki za BE
+// Hooks for back-end
 $GLOBALS ['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_tcemain.php']['processDatamapClass'][] =
         'EXT:tend_youtube/class.tx_tendyoutube_tcemainprocdm.php:tx_tendyoutube_tcemainprocdm';
 ?>
