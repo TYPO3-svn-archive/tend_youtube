@@ -1,0 +1,54 @@
+﻿<!--
+$Id$
+-->
+<!-- ###template### begin -->
+
+<div id="tendyoutube_videoupload">
+<form action="###form_action######cache###" method="post" enctype="multipart/form-data">
+    <ul>
+        <li><label>Naslov: * <br></label>
+		<input name="###form_name###[title]" type="text" value="###d_title###" ###off###/>###error_title###</li>
+        <li><label>Opis: * <br></label> 
+		<textarea name="###form_name###[description]" rows="6" cols="50" ###off###>###d_description###</textarea> ###error_description###</li>
+
+        <li><label>Kategorija: <br></label>
+              <select name="###form_name###[cat]" ###off###>
+                        <!-- ###cat_list### begin -->
+
+                        <!-- ###cat_selected### begin -->
+                        <option selected="selected" value="###value###">###text###</option>
+                    <!-- ###cat_selected### end -->
+
+                    <!-- ###cat### begin -->
+                    <option value="###value###">###text###</option>
+                    <!-- ###cat### end -->
+
+                    <!-- ###cat_list### end -->
+                </select></li>
+
+        <li><label>Ključne besede:  <br></label>
+		<input name="###form_name###[keywords]" type="text" value="###d_keywords###" ###off###/></li>
+            
+
+        <li><label>Video: *  <br></label>
+        <input name="###form_name###[raw_video]" type="file" ###off### /></li>
+            
+            ###error_raw_video###
+            ###error_all###
+
+        <li>
+            <input type="hidden" name="MAX_FILE_SIZE" value="###max_file_size###" />
+            <input type="hidden" name="###form_name###[postit]" value="1" />
+            <label>
+                <input type="submit" value="Shrani" ###off###/>
+            </label>
+        </li>
+
+        <li><div id="upload_state">Nalaganje je v teku...</div></li>
+                
+    </ul>
+    ###js###
+</form>
+</div>
+
+<!-- ###template### end -->

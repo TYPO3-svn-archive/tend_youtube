@@ -1,0 +1,77 @@
+/* $Id$ */
+
+#tendyoutube_videolist li.video{
+    float: left;
+    width: 120px;
+    display: inline-block;
+    height: 210px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#tendyoutube_videolist .video_ph{
+    margin: 5px;
+    width: 110px;
+}
+
+#tendyoutube_videolist img{
+    margin-top:5px;
+    border:none;
+}
+
+#tendyoutube_videolist li.video:hover{
+    
+}
+
+#tendyoutube_videolist li.video h2{
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#tendyoutube_videolist li .description_long{
+    display:none;
+}
+
+
+#tendyoutube_videolist .category{
+    color:#999;
+    font-weight: bold;
+}
+
+#upload_state{
+    display: none;
+    color:#ff8600;
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+    background-image: url(/typo3test/typo3conf/ext/tend_youtube/res/images/ajax.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+#tendyoutube_pager{
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 100%;
+    float:none;
+    clear:both;
+}
+
+#tendyoutube_pager .active{
+    color:red;
+}
+
+#tendyoutube_pager,
+#tendyoutube_pager a:hover{
+    text-decoration: none;
+}
+
+#tendyoutube_pager a:hover{
+    color: green;
+}
+
+#tendyoutube_videoupload li,
+#tendyoutube_videoupload ul{
+    list-style: none;
+}

@@ -1,0 +1,32 @@
+# cat=tend_youtube; type=string; label=(1) YouTube Username
+tend_youtube_api_lab_1 = [ user ]
+# cat=tend_youtube; type=string; label=(1) Google API Key : Google YouTube API Key
+tend_youtube_api_key_1 = [ insert api key here ]
+# cat=tend_youtube; type=string; label=(1) Google API User : User that uses API
+tend_youtube_api_user_1 = [ user@gmail.com ]
+# cat=tend_youtube; type=string; label=(1) Google API User Password : Password for API user
+tend_youtube_api_pass_1 = [ password ]
+
+# cat=tend_youtube; type=string; label=(2) YouTube Username
+tend_youtube_api_lab_2 = [ user ]
+# cat=tend_youtube; type=string; label=(2) Google API Key : Google YouTube API Key
+tend_youtube_api_key_2 = [ insert api key here ]
+# cat=tend_youtube; type=string; label=(2) Google API User : User that uses API
+tend_youtube_api_user_2 = [ user@gmail.com ]
+# cat=tend_youtube; type=string; label=(2) Google API User Password : Password for API user
+tend_youtube_api_pass_2 = [ password ]
+
+# cat=tend_youtube; type=string; label=(3) YouTube Username
+tend_youtube_api_lab_3 = [ user ]
+# cat=tend_youtube; type=string; label=(3) Google API Key : Google YouTube API Key
+tend_youtube_api_key_3 = [ insert api key here ]
+# cat=tend_youtube; type=string; label=(3) Google API User : User that uses API
+tend_youtube_api_user_3 = [ user@gmail.com ]
+# cat=tend_youtube; type=string; label=(3) Google API User Password : Password for API user
+tend_youtube_api_pass_3 = [ password ]
+
+# cat=tend_youtube; type=string; label=YouTube Usernames: Usernames to fetch
+tend_youtube_users = zverchi, fred
+
+# cat=tend_youtube; type=int; label=Video storage PID
+tend_youtube_pid = 1
