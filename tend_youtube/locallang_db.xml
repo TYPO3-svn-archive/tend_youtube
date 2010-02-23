@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'tend_youtube'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_tendyoutube_video">Tend YouTube Video</label>
+			<label index="tx_tendyoutube_video.title">Title</label>
+			<label index="tx_tendyoutube_video.cat">YouTube Category</label>
+			<label index="tx_tendyoutube_video.keywords">Keywords</label>
+			<label index="tx_tendyoutube_video.description">Description</label>
+			<label index="tx_tendyoutube_video.video_private">Video Private</label>
+			<label index="tx_tendyoutube_video.developer_tab">Developer Tag</label>
+			<label index="tx_tendyoutube_video.video_location">Video Location</label>
+			<label index="tx_tendyoutube_video.file_name">File Name</label>
+			<label index="tx_tendyoutube_video.file_mime">File Mime</label>
+			<label index="tx_tendyoutube_video.raw_video">Raw Video</label>
+			<label index="tx_tendyoutube_video.author">Author</label>
+			<label index="tx_tendyoutube_category">Tend YouTube Category</label>
+			<label index="tx_tendyoutube_category.cat_title">Category Title</label>
+			<label index="tt_content.list_type_pi1">Tend YouTube Upload</label>
+                        <label index="tt_content.list_type_pi2">Tend YouTube Browser</label>
+		</languageKey>
+	</data>
+</T3locallang>
