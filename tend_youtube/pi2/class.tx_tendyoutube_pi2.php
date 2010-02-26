@@ -8,9 +8,9 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
 require_once(t3lib_extMgm::extPath("jquery")."class.tx_jquery.php");
 
 class tx_tendyoutube_pi2 extends tslib_pibase {
-    var $prefixId      = 'tx_tendyoutube_pi2';		// Same as class name
-    var $scriptRelPath = 'pi2/class.tx_tendyoutube_pi2.php';	// Path to this script relative to the extension dir.
-    var $extKey        = 'tend_youtube';	// The extension key.
+    var $prefixId      = 'tx_tendyoutube_pi2';
+    var $scriptRelPath = 'pi2/class.tx_tendyoutube_pi2.php';	
+    var $extKey        = 'tend_youtube';
     var $pi_checkCHash = true;
 
     function main($content, $conf) {
@@ -19,7 +19,8 @@ class tx_tendyoutube_pi2 extends tslib_pibase {
 
         $this->pi_setPiVarDefaults();
         $this->pi_loadLL();
-
+        $this->pi_USER_INT_obj = 1;
+        
         tx_jquery::includeLib();
 
 
